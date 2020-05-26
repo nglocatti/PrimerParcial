@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/articulosnav"
+    app:startDestination="@id/listaArticulosFragment">
+
+    <fragment
+        android:id="@+id/listaArticulosFragment"
+        android:name="com.example.a1parcial.Fragments.ArticulosActivity.ListaArticulosFragment"
+        android:label="fragment_lista_articulos"
+        tools:layout="@layout/fragment_lista_articulos" >
+        <action
+            android:id="@+id/action_listFragment_to_addArt"
+            app:destination="@id/addArt" />
+        <argument
+            android:name="newArt"
+            app:argType="com.example.a1parcial.Entities.Articulos.Articulos[]"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <action
+            android:id="@+id/action_listaArticulosFragment_to_detalleContainer"
+            app:destination="@id/detalleContainer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addArt"
+        android:name="com.example.a1parcial.Fragments.ArticulosActivity.addArt"
+        android:label="fragment_add_art"
+        tools:layout="@layout/fragment_add_art" >
+        <action
+            android:id="@+id/action_addArt_to_listaArticulosFragment"
+            app:destination="@id/listaArticulosFragment" />
+        <argument
+            android:name="listArticulos"
+            app:argType="com.example.a1parcial.Entities.Articulos.Articulos[]"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/detalleContainer"
+        android:name="com.example.a1parcial.Fragments.ArticulosActivity.DetalleContainer"
+        android:label="detalle_container_fragment"
+        tools:layout="@layout/detalle_container_fragment">
+        <action
+            android:id="@+id/action_detalleContainer_to_listaArticulosFragment"
+            app:destination="@id/listaArticulosFragment" />
+    </fragment>
+
+</navigation>

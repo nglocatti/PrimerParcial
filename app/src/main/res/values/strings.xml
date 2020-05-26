@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Artículos</string>
+    <string name="Usuario">Usuario</string>
+    <string name="Password">Contraseña</string>
+    <string name="Email">E-mail</string>
+    <string name="Codigo">Código</string>
+    <string name="Descripcion">Descripción</string>
+    <string name="Stock">Stock</string>
+    <string name="Categoria">Categoría</string>
+    <string name="Eliminar">Eliminar</string>
+    <string name="Editar">Editar</string>
+    <string name="title_login">Identificación</string>
+    <string name="title_register">Nuevo Usuario</string>
+    <string name="title_articulo">Información del artículo</string>
+    <string name="title_detallearticulo">Detalle del artículo</string>
+    <string name="title_detallecategoria">Detalle de la categoría</string>
+    <string name="btn_ingresar">Ingresar</string>
+    <string name="btn_registrar">Registrarse</string>
+    <string name="btn_regresar">Regresar</string>
+    <string name="btn_ingreso_google">Ingresar con Google</string>
+    <string name="btn_agregar">Agregar</string>
+    <string name="btn_modificar">Modificar</string>
+    <string name="txt_user_register">Ingrese nombre de Usuario</string>
+    <string name="txt_email_register">Ingrese su E-mail</string>
+    <string name="txt_password1_register">Ingrese su contraseña</string>
+    <string name="txt_password2_register">Confirme su contraseña</string>
+    <string name="txt_codigo_articulo">Código del artículo</string>
+    <string name="txt_descripcion_articulo">Descripción del artículo</string>
+    <string name="txt_stock_articulo">Stock del artículo</string>
+    <string name="txt_categoria_articulo">Categoría del artículo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="det_Bebidas">
+        Bebida es cualquier líquido que se ingiere y aunque la bebida por excelencia es el agua, el término se refiere por antonomasia a las bebidas alcohólicas y las bebidas gaseosas. Las infusiones también son un ejemplo de uso masivo de bebidas.
+    </string>
+    <string name="det_Comestibles">Para poder conocer el significado del término comestible, se hace necesario descubrir, en primer lugar, su origen etimológico. En este caso podemos exponer que deriva del latín, exactamente de la palabra “comestibilis” que puede traducirse como “que se puede comer”. De esa podemos indicar que es fruto de la suma de dos componentes diferenciados:
+    -El verbo “comedere”, que es sinónimo de “comer”.
+    -El sufijo “-ible”, que indica “que se puede”.
+    Comestible: el término refiere a aquello que se puede comer. También se le dice comestible al conjunto de los alimentos en general.
+    </string>
+    <string name="det_Electronica">
+    Un electrodoméstico es una máquina o aparato que permite realizar y agilizar algunas tareas domésticas de rutina diaria. Ayudan a preparar y cocinar alimentos, sirven para la limpieza del hogar y pueden ser utilizados por las instituciones, industrias y negocios, entre otros. Además de aquellos que preparan nuestros alimentos, también se consideran como electrodomésticos los televisores, móviles y equipos de sonido, pero estos pertenecen a otra línea.
+    </string>
+    <string name="det_Deportes">
+        El deporte es una actividad reglamentada, normalmente de carácter competitivo y que puede mejorar la condición física2​ de quien lo practica, y además tiene propiedades que lo diferencian del juego. Esta categoria contiene todos los elementos y objetos necesarios para llevar a cabo dichas actividades.
+    </string>
+</resources>
